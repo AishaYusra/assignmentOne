@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Cormorant', serif;
+    background-color: #eee;
+    height: 400px;
+    position: relative;
+    padding: 30px;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    height: 20px;
+    font-size: 30px;
+    text-align: center;
+    transition: all .2s;
+}
+
+table {
+    box-sizing: 100px;
+}
+
+td {
+    align-items: center;
+    justify-content: center;
+
+}
+
+td:hover {
+    cursor: pointer;
+    outline: 1px solid rgb(10, 15, 10);
+}
+
+td:active {
+    background-color: aqua;
+}
+
+.dark-cell {
+    background-color: brown;
+    color: white;
+}
+
+.light-cell:active {
+    background-color: rgb(158, 148, 134);
+}
+
+.dark-cell:active {
+    background-color: rgb(100, 26, 26);
+}
+
+.light-cell:active {
+    background-color: rgb(158, 148, 134);
+}
